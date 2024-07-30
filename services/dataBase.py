@@ -13,10 +13,6 @@ cnxn = pdb.connect(
         + ";Trusted_connection=yes;"
     )
 
- r'SERVER=SEU_SERVIDOR;'  # Substitua pelo endereço do seu servidor SQL Server
-        r'DATABASE=SEU_BANCO_DE_DADOS;'  # Substitua pelo nome do seu banco de dados
-        r'UID=SEU_USUARIO;'  # Substitua pelo seu nome de usuário
-        r'PWD=SUA_SENHA;'
 cursor = cnxn.cursor()
 
 def init_connection():
