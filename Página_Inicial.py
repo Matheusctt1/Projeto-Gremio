@@ -2,8 +2,8 @@
 
 import streamlit as st
 st.set_page_config(
-    page_title = pageTitle,
-    page_icon = pageIcon,
+    page_title = st.secrets["pageTitle"],
+    page_icon = st.secrets["pageIcon"],
     layout="wide",
     initial_sidebar_state='auto'
 )
@@ -45,7 +45,7 @@ if Page_cliente == 'Visualizar BD. Adversario':
   PageVisuAdversario.pageVisuAdversario()
 
 with st.sidebar.container(border=None):
-        st.sidebar.image(image = sidebarImage, width=220)
+        st.sidebar.image(image = st.secrets["sidebarImage"], width=220)
 
 
 
