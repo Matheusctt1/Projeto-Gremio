@@ -7,9 +7,6 @@ def exibirPagina():
     st.markdown(
             """
             <style>
-            .st-emotion-cache-12fmjuu{
-                background: transparent;
-            }
 
             .st-emotion-cache-asc41u e1nzilvr2, .st-emotion-cache-ai8gcz, .st-emotion-cache-1nj1hs9{
                 color: black;
